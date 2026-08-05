@@ -18,5 +18,7 @@ class soma{
         soma = a + b;
 
         System.out.printf("Soma = %d\n", soma);
+        
+        ler.close();
     }
 }

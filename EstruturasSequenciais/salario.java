@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 class salario {
     public static void main(String[] args) {
-        Scanner ler = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner ler = new Scanner(System.in);
 
         double valor1, valor2, acresc1, desc;
 

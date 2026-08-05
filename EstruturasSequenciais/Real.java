@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Real {
      public static void main(String[] args){
-    Scanner ler = new Scanner(System.in);
+    @SuppressWarnings("resource")
+	Scanner ler = new Scanner(System.in);
 
     double real;
 
