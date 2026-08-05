@@ -1,3 +1,5 @@
+//Faça um programa em Linguagem Java, para ler um valor em reais e
+//exibir o equivalente em dólares. Considere que um dólar vale R$ 5.50.
 
 import java.util.Scanner;
 

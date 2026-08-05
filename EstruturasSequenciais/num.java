@@ -1,3 +1,6 @@
+//Faça um programa em Linguagem Java, para ler um número inteiro e
+//mostrar ele na tela.
+
 import java.util.Scanner;
 
 class Main {
