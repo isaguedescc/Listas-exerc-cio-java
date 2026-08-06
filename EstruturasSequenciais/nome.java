@@ -1,5 +1,5 @@
-// Faça um programa em Linguagem Java, que mostre na tela a frase o
-// seu nome.
+/*Faça um programa em Linguagem Java, que mostre na tela a frase o  
+ seu nome.*/
 
 import java.util.Scanner;
 
