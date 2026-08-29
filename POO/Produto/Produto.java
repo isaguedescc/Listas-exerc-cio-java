@@ -1,4 +1,14 @@
 package POO.Produto;
+/* Fazer um programa para ler os dados de um produto em estoque
+(nome, preço e quantidade no estoque). Em seguida:
+❖ Mostrar os dados do produto (nome, preço, quantidade no
+estoque, valor total no estoque)
+❖ Realizar uma entrada no estoque e mostrar novamente os dados
+do produto
+❖ Realizar uma saída no estoque e mostrar novamente os dados
+do produto.
+❖ Desenvolva, usando a UML (diagrama de classe), e
+posteriormente na linguagem Java.*/
 
 public class Produto {
     private String nome;
@@ -35,6 +45,11 @@ public class Produto {
      float total = this.preco * this.quantidade;
         return total;
 
+    }
+
+    public int getSaida(int retirada){
+        int newQuantidade = this.quantidade - retirada;
+        return newQuantidade;
     }
 
 
