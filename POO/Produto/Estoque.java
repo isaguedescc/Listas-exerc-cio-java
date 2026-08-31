@@ -23,10 +23,13 @@ public class Estoque {
         System.out.println("Preço: "+produtoA.getPreco());
         System.out.println("Estoque: "+produtoA.getQuant());
 
-        System.out.println("---- dados do produto -----");
+        System.out.println("---- dados do produto  atualizados-----");
         System.out.println("Nome: "+produtoA.getNome());
         System.out.println("Preço: "+produtoA.getPreco());
-        System.out.println("Estoque: "+produtoA.getSaida(520));
+        // testar com adixição no estoque por meio de if e scanner
+        System.out.println("---Inserindo e retirando do estoque-----");
+        System.out.println("Inserindo mais no estoque: "+produtoA.getAdiciona(500));
+        System.out.println("Retirando do estoque, quantidade final: "+produtoA.getSaida(100));
 
     }
 }

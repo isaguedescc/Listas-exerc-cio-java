@@ -47,10 +47,17 @@ public class Produto {
 
     }
 
-    public int getSaida(int retirada){
-        int newQuantidade = this.quantidade - retirada;
-        return newQuantidade;
+    public int getAdiciona(int adiciona){
+        quantidade = this.quantidade + adiciona;
+        return quantidade;
     }
+
+    public int getSaida(int retirada){
+         quantidade = this.quantidade- retirada;
+        return quantidade;
+    }
+
+    
 
 
 
