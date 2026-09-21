@@ -1,4 +1,4 @@
-package POO.Produto;
+package poo.Produto;
 /* Fazer um programa para ler os dados de um produto em estoque
 (nome, preço e quantidade no estoque). Em seguida:
 ❖ Mostrar os dados do produto (nome, preço, quantidade no

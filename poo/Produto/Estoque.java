@@ -1,4 +1,4 @@
-package POO.Produto;
+package poo.Produto;
 import java.util.Scanner;
 
 // fazer alterações na lógica do codigo

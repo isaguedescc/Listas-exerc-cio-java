@@ -1,3 +1,4 @@
+package poo.Pessoa;
 /*public class Pessoa {
     private String nome;
     private float peso;

@@ -1,3 +1,4 @@
+package poo.Pessoa;
 /*import java.util.Scanner;
 
 public class ImcCalculo {
